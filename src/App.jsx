@@ -71,22 +71,22 @@ const App = () => {
             <div className=" grid grid-cols-4 grid-rows-1 mt-10 gap-3">
               <button
               onClick={(value)=>handleButtonClick('e')} 
-              className="w-full bg-gray-800 pb-2 rounded-full text-3xl text-blue-600">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 pb-2 rounded-full text-3xl text-blue-600">
                 e
               </button>
               <button 
               onClick={(value)=>handleButtonClick('u')} 
-              className="w-full bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
                 &#956;
               </button>
               <button 
               onClick={(value)=>handleButtonClick('sin')} 
-              className="w-full bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
                 sin
               </button>
               <button 
               onClick={(value)=>handleButtonClick('deg')} 
-              className="w-full bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 pb-2 rounded-full text-2xl text-blue-600">
                 deg
               </button>
             </div>
@@ -94,91 +94,91 @@ const App = () => {
             <div className=" grid grid-cols-4 grid-rows-7 gap-4 mt-4">
               <button 
               onClick={()=>handleAcButton()}
-              className="w-full bg-gray-700 rounded-2xl text-white/30 text-4xl pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-700 rounded-2xl text-white/30 text-4xl pb-3 pt-2">
                 Ac
               </button>
 
               <button 
               onClick={()=>handleBackSpace()}
-              className="w-full bg-gray-700 rounded-2xl text-white/30 text-4xl pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-700 rounded-2xl text-white/30 text-4xl pb-3 pt-2">
                 &#10094;
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('/')} 
-              className="w-full bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-3 pt-2">
                 /
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('*')} 
-              className="w-full bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-2 pt-3">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-2 pt-3">
                 *
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('7')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 7
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('8')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 8
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('9')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 9
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('-')} 
-              className="w-full bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-4 pt-1">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-4 pt-1">
                 -
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('4')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 4
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('5')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 5
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('6')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 6
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('+')} 
-              className="w-full bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-4 pt-1">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-blue-700 rounded-2xl text-blue-500 text-4xl font-bold pb-4 pt-1">
                 +
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('1')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 1
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('2')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 2
               </button>
 
               <button 
-              onClick={(value)=>handleButtonClick('7')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
+              onClick={(value)=>handleButtonClick('3')} 
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2">
                 3
               </button>
 
@@ -190,13 +190,13 @@ const App = () => {
 
               <button
                onClick={(value)=>handleButtonClick('0')} 
-               className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2 col-span-2">
+               className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-semibold pb-3 pt-2 col-span-2">
                 0
               </button>
 
               <button 
               onClick={(value)=>handleButtonClick('.')} 
-              className="w-full bg-gray-800 rounded-2xl text-blue-500 text-4xl font-bold pb-4">
+              className="w-full hover:shadow-inner shadow-blue-500 bg-gray-800 rounded-2xl text-blue-500 text-4xl font-bold pb-4">
                 .
               </button>
             </div>
